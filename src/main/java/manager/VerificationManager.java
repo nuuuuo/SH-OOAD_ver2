@@ -27,6 +27,7 @@ public class VerificationManager {
             }
 
             String tempCode = stringBuilder.toString();
+            //여기서 반환값이 bool 이니까 if 문에 그냥 조건 하나만 더 추가할게.
             VerificationCode verifyCodeResult = verifyCode(tempCode);
 
             if(verifyCodeResult.getCode().isEmpty() && verifyCodeResult.getDrinkType().isEmpty() && verifyCodeResult.getDrinkNum()==0){ //중복 인증코드 없음

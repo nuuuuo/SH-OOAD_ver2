@@ -38,7 +38,7 @@ public class DrinkManager {
         return drinkDBManager.getDrinkQuantity(drinkType);
     }///////////getDrinkQuantity의 리턴값을 void -> int로 변경
 
-    public boolean manageDrink(String drinkType, int drinkNum) {
+    public boolean manageDrink(String drinkType, int drinkNum) {    // drinkNum 얘가 양수던 음수던 보내주게 함
         // TODO implement here
         DrinkDBManager drinkDBManager = DrinkDBManager.getManager();
         return drinkDBManager.setDrink(drinkType, drinkNum);

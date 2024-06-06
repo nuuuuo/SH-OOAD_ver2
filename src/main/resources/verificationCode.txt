@@ -1,0 +1,5 @@
+콜라 10 asd123asd1
+사이다 10 asd123asd2
+홍차 10 asd123asd3
+녹차 10 asd123asd4
+밀크티 10 asd123asd5
